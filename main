@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>coffee mania </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>coffee everyday</h1>
+    <p>I'm pouring out my heart</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>taste friendship with you</h2>
+      <p>A coffee helps in inflamation,skin diseases,weight loss</p>
+      <a href="#" class="button">Call to Action</a>
+    </section>
+
+    <section class="features">
+      <h2>Our Features</h2>
+      <div class="feature-item">
+        <h3>cold brew</h3>
+        <p>made by steeping coffee in water for 12-24 hours. less acidic and smoother than hot coffee</p>
+      </div>
+      <div class="feature-item">
+        <h3>lattes</h3>
+        <p>ingerdients are expresso an milk. higher caffeine content.high espresso to milk ratio</p>
+      </div>
+      </section>
+
+    <section class="testimonials">
+      <h2>What People Say</h2>
+      <blockquote>"This is a great product! It helped me achieve strength" - anamika</blockquote>
+      <blockquote>"I highly recommend it. The customer service is superb" - imad</blockquote>
+      </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 </p>
+  </footer>
+</body>
+</html>
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 50px 0;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .features {
+    display: flex; /* Arrange features side-by-side */
+    justify-content: space-around; /* Distribute evenly */
+    flex-wrap: wrap; /* Allow features to wrap to next line */
+    margin-bottom: 50px;
+  }
+  
+  .feature-item {
+    width: calc(33% - 20px); /* Calculate width based on 3 columns */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .testimonials {
+    text-align: center;
+  }
+  
+  blockquote {
+    margin: 15px 0;
+    font-style: italic;
+    border-left: 5px solid #ddd;
+    padding-left: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
